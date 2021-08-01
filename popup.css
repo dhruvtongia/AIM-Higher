@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 1em;
+  min-width: 350px;
+  background: white;
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("images/bg.jpg");
+  background-repeat: no-repeat ;
+  background-size: cover;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#quote {
+  font-size: 3em;
+}
+#author
+{
+  float: right;
+  opacity: 0.75;
+}
+.clear
+{
+  clear: both;
+}
+
+#one-more {
+
+  visibility: hidden;
+  background-color: darkcyan;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 2px;
+  font-size: medium;
+  margin-top: 2em ;
+  margin-bottom: 1em;
+  padding: 5px;
+  
+}
+
+#one-more:hover {
+
+  background-color:white;
+  color: darkcyan;
+  
+}
+
+#credits
+{
+  font-size: 0.75em;
+}
